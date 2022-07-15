@@ -1,0 +1,27 @@
+h1{
+    font-size: 2vw;
+    font-family: 'Pacifico', cursive;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collection{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 0fr);
+    gap: 1vw;
+}
+.collection-item{
+    display: flex;
+    justify-content: center;
+    width: 15vw;
+    height: 15vw;
+    background: black;
+}
+#addButton{
+    text-align: center;
+    font-size: 10vw;
+}
