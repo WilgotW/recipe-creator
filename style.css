@@ -15,13 +15,30 @@ h1{
     gap: 1vw;
 }
 .collection-item{
-    display: flex;
-    justify-content: center;
+    padding: 0;
+    margin: 0;
     width: 15vw;
     height: 15vw;
-    background: black;
+    background: white;
+    border: 2px solid black;
 }
 #addButton{
     text-align: center;
     font-size: 10vw;
+}
+.recipe{
+    margin: 0;
+    padding: 0;
+    width: 14.75vw;
+    height: 12vw;
+    resize: none;
+}
+.title{
+    margin: 0;
+    padding: 0;
+    resize: none;
+    font-size: 2vw;
+    text-align: center;
+    width: 14.75vw;
+    height: 2vw;
 }
